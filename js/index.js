@@ -67,7 +67,7 @@ display();
 function validation(elem){
 var regex={
     employeename:/[a-z]{3,}/,
-    employeeurl:/[a-z]{5,10}\.(com)/,
+    employeeurl:/^http(s)?:\/\/(www\.)?[a-zA-Z0-9@&:%._\+#=-]{2,}\.[a-z]{2,}/,
     
 }
 if(regex[elem.id].test(elem.value)){
