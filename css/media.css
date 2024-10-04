@@ -1,0 +1,32 @@
+
+@media screen and (max-width:368px){
+    h1{
+        position: relative !important;
+        left: -70% !important;
+        /* background-color: teal !important; */
+    }
+} 
+
+@media screen and (min-width:369px) and (max-width:480px){
+    h1{
+        position: relative !important;
+        left: -40% !important;
+      
+    }
+ 
+}
+
+@media screen and (max-width:890px){
+    h1::before{
+        content: '';
+        transform: translateX(4%);
+        width: 250px;
+    }
+ }
+ @media screen and (min-width:891px) and (max-width:1200px){
+    h1::before{
+        content: '';
+        transform: translateX(20%);
+        width: 250px;
+    }
+ }
